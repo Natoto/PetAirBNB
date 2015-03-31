@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="C2_SignUpController">
+            <connections>
+                <outlet property="scrollview" destination="gxJ-sY-Vqj" id="6sO-kn-tX7"/>
+                <outlet property="txt_confirmpassword" destination="sFd-E5-Yng" id="fZE-CY-bL8"/>
+                <outlet property="txt_email" destination="icm-tx-gyw" id="POQ-sL-AuV"/>
+                <outlet property="txt_password" destination="zs1-HT-qBa" id="y6H-Oz-iP7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="525"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-sY-Vqj">
+                    <rect key="frame" x="0.0" y="0.0" width="451" height="525"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1512" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zs1-HT-qBa">
+                            <rect key="frame" x="71" y="100" width="310" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1511" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入邮箱" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="icm-tx-gyw">
+                            <rect key="frame" x="71" y="60" width="310" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="310" id="moZ-Z6-FcP"/>
+                                <constraint firstAttribute="height" constant="40" id="whN-OR-1gM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1513" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入确认密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sFd-E5-Yng">
+                            <rect key="frame" x="71" y="140" width="310" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="join" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="sFd-E5-Yng" firstAttribute="top" secondItem="zs1-HT-qBa" secondAttribute="bottom" id="7vM-66-No3"/>
+                        <constraint firstItem="icm-tx-gyw" firstAttribute="leading" secondItem="zs1-HT-qBa" secondAttribute="leading" id="Dk3-Wv-8i2"/>
+                        <constraint firstItem="icm-tx-gyw" firstAttribute="height" secondItem="zs1-HT-qBa" secondAttribute="height" id="Ggu-Xc-zNl"/>
+                        <constraint firstItem="icm-tx-gyw" firstAttribute="width" secondItem="zs1-HT-qBa" secondAttribute="width" id="Kzg-Qc-Inv"/>
+                        <constraint firstItem="zs1-HT-qBa" firstAttribute="top" secondItem="icm-tx-gyw" secondAttribute="bottom" id="Z5m-jV-znB"/>
+                        <constraint firstItem="zs1-HT-qBa" firstAttribute="leading" secondItem="sFd-E5-Yng" secondAttribute="leading" id="r9g-gw-I4q"/>
+                        <constraint firstItem="zs1-HT-qBa" firstAttribute="height" secondItem="sFd-E5-Yng" secondAttribute="height" id="rmf-GP-JWq"/>
+                        <constraint firstItem="icm-tx-gyw" firstAttribute="top" secondItem="gxJ-sY-Vqj" secondAttribute="top" constant="60" id="vd1-t5-dgJ"/>
+                        <constraint firstItem="zs1-HT-qBa" firstAttribute="width" secondItem="sFd-E5-Yng" secondAttribute="width" id="wQn-9e-glU"/>
+                        <constraint firstAttribute="centerX" secondItem="icm-tx-gyw" secondAttribute="centerX" id="zaZ-oA-X41"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" none="YES" keyboardKey="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="gxJ-sY-Vqj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5Lp-jm-th3"/>
+                <constraint firstItem="gxJ-sY-Vqj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ETL-gv-Vq5"/>
+                <constraint firstAttribute="bottom" secondItem="gxJ-sY-Vqj" secondAttribute="bottom" id="EYB-5X-1FZ"/>
+                <constraint firstItem="gxJ-sY-Vqj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KWd-ht-Xuq"/>
+                <constraint firstItem="gxJ-sY-Vqj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="R2J-9J-q8T"/>
+                <constraint firstAttribute="trailing" secondItem="gxJ-sY-Vqj" secondAttribute="trailing" id="XZp-se-n11"/>
+                <constraint firstAttribute="trailing" secondItem="gxJ-sY-Vqj" secondAttribute="trailing" id="hAu-m4-8Ma"/>
+                <constraint firstAttribute="bottom" secondItem="gxJ-sY-Vqj" secondAttribute="bottom" id="sE9-kb-2J1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="189.5" y="178.5"/>
+        </view>
+    </objects>
+</document>

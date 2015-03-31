@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration namespace="DefaultConfigure">
+    
+<appicon></appicon>
+<forumurl>http://petbnb.azurewebsites.net</forumurl>
+<websiteurl>http://petbnb.azurewebsites.net</websiteurl>
+<weixinappid>wx5b05f60fb5c5defc</weixinappid>
+<sinaweiboappkey>3145388585</sinaweiboappkey>
+<downloadurl></downloadurl>
+
+<idourl></idourl>
+<appid>ABCDAFAFASGASG</appid>
+<appname>PetAirBNB</appname>
+<appversion>V1.0.1</appversion>
+<launchImage>defaultLaunchImage</launchImage>
+<navigationbar>
+        <backgroundColor>0X00AAF5</backgroundColor>
+        <backgroundImage></backgroundImage>
+</navigationbar>
+
+<tabbar>
+        <iconcolor>0x3f3f3f</iconcolor>
+        <selectediconcolor>0X00AAF5</selectediconcolor>
+        <backgroundColor>0XE7E7E7</backgroundColor>
+        <backgroundImage></backgroundImage>
+        <HighLightImage></HighLightImage>
+        <HighLightColor></HighLightColor>
+</tabbar>
+<aboutus>
+<abstract>
+    
+</abstract>
+<email>
+</email>
+<qq>
+</qq>
+<website>
+</website>
+<clientversion>
+    V 1.0.1
+</clientversion>
+</aboutus>
+</configuration>

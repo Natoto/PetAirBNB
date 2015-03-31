@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[API_GETNEARUSERS_SHOTS routine]:getnearusers.mm">
+      </ContextState>
+      <ContextState
+         contextName = "__60-[A1_NearListController locationManager:didUpdateLocations:]_block_invoke_2:A1_NearListController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__30-[C1_SignInController signin:]_block_invoke_2:C1_SignInController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "block">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[C0_MineProfileView viewTap:]:C0_MineProfileView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[A1_MapViewController addlayer:]:A1_MapViewController.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "pointAnnotation.iconurl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__30-[C1_SignInController signin:]_block_invoke29:C1_SignInController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[A1_MapViewController mapView:viewForAnnotation:]:A1_MapViewController.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "pointan.iconurl">
+            </PersistentString>
+            <PersistentString
+               value = "imageview.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[C0_MineController refreshView]_block_invoke97:C0_MineController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[A1_NearController viewWillAppear:]:A1_NearController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

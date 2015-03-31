@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="MCa-8e-GLU" customClass="C3_EditUserInfo_PhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MCa-8e-GLU" id="tod-jq-ovS">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1G-UP-JtX">
+                        <rect key="frame" x="47" y="28" width="321" height="58"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                    </scrollView>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0x-zd-3dq">
+                        <rect key="frame" x="0.0" y="28" width="80" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Bma-Uc-YLa"/>
+                        </constraints>
+                        <state key="normal" title="添加照片">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="addPhotos:" destination="MCa-8e-GLU" eventType="touchUpInside" id="ye3-Vy-nvR"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="x1G-UP-JtX" firstAttribute="top" secondItem="tod-jq-ovS" secondAttribute="topMargin" id="Fbk-x5-wBi"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="D0x-zd-3dq" secondAttribute="bottom" id="Hhv-VB-Jiy"/>
+                    <constraint firstItem="D0x-zd-3dq" firstAttribute="leading" secondItem="tod-jq-ovS" secondAttribute="leadingMargin" id="Oqp-Rh-aie"/>
+                    <constraint firstItem="x1G-UP-JtX" firstAttribute="leading" secondItem="D0x-zd-3dq" secondAttribute="trailing" id="Q7K-6Q-SMh"/>
+                    <constraint firstItem="x1G-UP-JtX" firstAttribute="bottom" secondItem="tod-jq-ovS" secondAttribute="bottomMargin" id="Xgm-6a-jfi"/>
+                    <constraint firstItem="D0x-zd-3dq" firstAttribute="top" secondItem="tod-jq-ovS" secondAttribute="topMargin" id="jy9-k7-ju2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="x1G-UP-JtX" secondAttribute="trailing" id="luX-3I-paH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addphoto" destination="D0x-zd-3dq" id="mbl-3h-sg1"/>
+                <outlet property="scrollview" destination="x1G-UP-JtX" id="Upq-CF-uKx"/>
+            </connections>
+            <point key="canvasLocation" x="114" y="342"/>
+        </tableViewCell>
+    </objects>
+</document>
